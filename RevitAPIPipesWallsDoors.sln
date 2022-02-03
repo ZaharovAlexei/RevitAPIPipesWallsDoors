@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPIPipesWallsDoors", "RevitAPIPipesWallsDoors.csproj", "{3342316F-6592-4BC2-B908-A02A5A36BBCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3342316F-6592-4BC2-B908-A02A5A36BBCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3342316F-6592-4BC2-B908-A02A5A36BBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3342316F-6592-4BC2-B908-A02A5A36BBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3342316F-6592-4BC2-B908-A02A5A36BBCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C644BF2-3C1F-4EC9-8B5E-89855A5B4021}
+	EndGlobalSection
+EndGlobal

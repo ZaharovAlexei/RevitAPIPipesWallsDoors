@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type ="Command">
+		<Assembly>"C:\Program Files\RevitAPITraining\RevitAPIPipesWallsDoors.dll"</Assembly>
+		<AddInId>759494CF-D14D-4820-86D6-EAB83DED3569</AddInId>
+		<FullClassName>RevitAPIPipesWallsDoors.Main</FullClassName>
+		<VendorId>ADSK</VendorId>
+		<Text>Приложение PWD</Text>
+	</AddIn>
+</RevitAddIns>

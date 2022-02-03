@@ -1,0 +1,26 @@
+﻿<Window x:Class="RevitAPIPipesWallsDoors.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RevitAPIPipesWallsDoors"
+             mc:Ignorable="d" 
+             Height="150" Width="300" Title="Подсчет параметров">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Content="Количество труб" VerticalAlignment="Center" Margin="5"/>
+        <Label Content="Объем всех стен" VerticalAlignment="Center" Grid.Row="1"/>
+        <Label Content="Количество дверей" VerticalAlignment="Center" Grid.Row="2"/>
+        <Button Content="Посчитать" Grid.Column="1" Command="{Binding PipeCommand}" Margin="5"/>
+        <Button Content="Посчитать" Grid.Column="1" Grid.Row="1" Command="{Binding WallCommand}" Margin="5"/>
+        <Button Content="Посчитать" Grid.Column="1" Grid.Row="2" Command="{Binding DoorCommand}" Margin="5"/>
+    </Grid>
+</Window>
